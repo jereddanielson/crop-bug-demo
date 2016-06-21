@@ -10,7 +10,8 @@ package.json already includes the necessary dependencies, and Webpack is preconf
 ### To run
 
 * You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
-* Clone the project:
+
+Clone the project:
 
 ```
 > $ git clone https://github.com/jereddanielson/brews.git
@@ -41,3 +42,5 @@ To clean the public directory without running webpack:
 ```
 > $ npm run clean
 ```
+
+Forked and heavily modified from Ali Al Dallal's [react-webpack-babel](https://github.com/alicoding/react-webpack-babel) boilerplate.
