@@ -1,20 +1,19 @@
-# react-webpack-babel
-Simple React Webpack Babel Starter Kit
-
-
-This is a simple [React](https://facebook.github.io/react/), [Webpack](http://webpack.github.io/) and [Babel](https://babeljs.io/) application with nothing else in it.
+# BREWS
+A simple, somewhate opinionate boilerplate for [Babel](https://babeljs.io/), [React](https://facebook.github.io/react/), [EJS](http://ejs.co/), [Webpack](http://webpack.github.io/), and [SASS](http://sass-lang.com/).
 
 ### What's in it?
 
-Just a simple [index.jsx](./index.jsx), [webpack.config.js](./webpack.config.js) and [index.html](./public/index.html) file.
+Files for an app entry point and React component - basically index.ejs, index.jsx, index.scss, and App.jsx.
+
+package.json already includes the necessary dependencies, and Webpack is preconfigured for development and production. This eliminates two of the major pain points when starting a new React project (installying npm dependencies and configuring Webpack).
 
 ### To run
 
 * You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
-* Fork and clone the project:
+* Clone the project:
 
 ```
-> $ git clone https://github.com/alicoding/react-webpack-babel.git
+> $ git clone https://github.com/jereddanielson/brews.git
 ```
 
 Then install the dependencies:
@@ -23,24 +22,22 @@ Then install the dependencies:
 > $ npm install
 ```
 
-Install webpack and the development server:
+####Commands####
 
-```
-> $ npm i webpack-dev-server webpack -g
-```
-
-You can simply run webpack build using this command: 
-
-```
-> $ npm run build
-```
-
-If you want to run with webpack-dev-server simply run this command: 
+For development mode:
 
 ```
 > $ npm run dev
 ```
 
-Open the web browser to `http://localhost:8080/`
+For production mode including clean directory, NODE_ENV flag, and minification:
 
-Please contribute to the project if you think this can be done better in anyway even for this README :)
+```
+> $ npm run build
+```
+
+To clean the public directory without running webpack:
+
+```
+> $ npm run clean
+```
