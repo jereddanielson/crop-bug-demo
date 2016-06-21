@@ -10,6 +10,10 @@ module.exports = [
 		loader: 'style-loader!css-loader'
 	},
 	{
+		test: /\.scss$/,
+		loaders: ["style", "css", "sass"]
+	},
+	{
 		test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
 		loader: "file"
 	},
