@@ -7,7 +7,7 @@ Files for an app entry point and React component - basically index.ejs, index.js
 
 package.json already includes the necessary dependencies, and Webpack is preconfigured for development and production. This eliminates two of the major pain points when starting a new React project (installying npm dependencies and configuring Webpack). [Webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) and [react-hot-loader](https://github.com/gaearon/react-hot-loader) recompile only parts of the app that have changed and facilitate rapid development iterations without having to reload the page (most of the time.)
 
-### To run
+####To run####
 
 * You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
 
@@ -25,7 +25,7 @@ Then install the dependencies:
 
 ####Commands####
 
-For development mode (which will start webpack-dev-server and react-hot-reloader on localhost:3000:
+For development mode (which will start webpack-dev-server and react-hot-reloader on localhost:3000):
 
 ```
 > $ npm run dev
