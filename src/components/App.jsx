@@ -6,7 +6,7 @@ export default class App extends Component {
 		return (
 			<div className="container">
 				{/* Your app goes in here, this is just boilerplate */}
-				<h1>Hello, World</h1>
+				<h1>Hello, World!</h1>
 				<img src={myImage} />
 			</div>
 		);
