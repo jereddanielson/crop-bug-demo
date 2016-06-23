@@ -5,7 +5,7 @@ A simple, somewhate opinionate boilerplate for [Babel](https://babeljs.io/), [Re
 
 Files for an app entry point and React component - basically index.ejs, index.jsx, index.scss, and App.jsx.
 
-package.json already includes the necessary dependencies, and Webpack is preconfigured for development and production. This eliminates two of the major pain points when starting a new React project (installying npm dependencies and configuring Webpack).
+package.json already includes the necessary dependencies, and Webpack is preconfigured for development and production. This eliminates two of the major pain points when starting a new React project (installying npm dependencies and configuring Webpack). [Webpack-dev-server](https://webpack.github.io/docs/webpack-dev-server.html) and [react-hot-loader](https://github.com/gaearon/react-hot-loader) recompile only parts of the app that have changed and facilitate rapid development iterations without having to reload the page (most of the time.)
 
 ### To run
 
@@ -25,7 +25,7 @@ Then install the dependencies:
 
 ####Commands####
 
-For development mode:
+For development mode (which will start webpack-dev-server and react-hot-reloader on localhost:3000:
 
 ```
 > $ npm run dev
@@ -43,4 +43,4 @@ To clean the public directory without running webpack:
 > $ npm run clean
 ```
 
-Forked and heavily modified from Ali Al Dallal's [react-webpack-babel](https://github.com/alicoding/react-webpack-babel) boilerplate.
+Forked from Ali Al Dallal's [react-webpack-babel](https://github.com/alicoding/react-webpack-babel) boilerplate.
